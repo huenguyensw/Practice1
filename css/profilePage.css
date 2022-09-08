@@ -8,7 +8,7 @@ body {
     font-size: 14px;
 }
 h1, header p {
-    line-height: 4px;   
+    line-height: 5px;   
     text-align: center;
     
 }
@@ -102,3 +102,24 @@ li a:hover {
 #submit:hover{
     opacity: 1;
 }
+#footer {
+    width: 600px;
+    margin: 10px auto;
+}
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+  }
+  .fa-facebook, .fa-instagram, .fa-linkedin {
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+  }
+  #footer p {
+    text-align: left;
+  }
