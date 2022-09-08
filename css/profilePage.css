@@ -4,16 +4,24 @@
 body {
     margin: 0 auto;
     background-color: pink;
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 14px;
 }
 h1, header p {
-    line-height: 3px;
+    line-height: 4px;   
     text-align: center;
+    
+}
+h1 {
+    padding-top: 20px
+}
+header p {
+    padding-bottom: 20px;
+    font-style: italic;
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 320px;
     padding: 0;
 
 }
@@ -22,11 +30,15 @@ li {
 }
 li a {
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 10px 4px;
+}
+li a:hover {
+    background-color: rgba(240, 77, 104, 0.458);
+    color: white;
 }
 .frame {
     width: 600px;
-    height: 280px;
+    height: 300px;
     margin: 20px auto;
     background-color: white;
 }
@@ -43,30 +55,50 @@ li a {
     display:inline-block;
     width: 58%;
     vertical-align: top;
-    padding: 14px 16px;  
+    margin: 0;
+    padding: 0 16px;  
 }
 #section2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    margin: 40px auto;
+    justify-content: left;
+    gap: 50px;
+    margin: 40px 20px;
 }
 #section2 p {
-    font-size: 16px;
     text-align: center;
+    margin-top: 6px;
+    margin-bottom: 0;
 }
 #section2 img {
     object-fit: cover;
-    width: 110px;
-    height: 110px;
+    width: 140px;
+    height: 120px;
 }
-input,textarea {
+#section3 input,textarea {
     display: block;
-    margin: 10px auto;
+    margin: 7px 20px;
     width: 70%;
-    padding: 12px;
+    padding: 7px;
     resize: vertical;
     font-size: 14px;
+}
+#submit {
+    display: block;
+    width: 7em;
+    height: 3em;
+    text-align: center;
+    margin: 12px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    opacity: 0.8;
+}
+#submit:active{
+    opacity: 1;
+}
+#submit:hover{
+    opacity: 1;
 }
